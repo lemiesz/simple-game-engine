@@ -1,0 +1,25 @@
+{
+  "name": "@lemiesz/game",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Robert Lemiesz <lemieszrobert@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/game.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "npm run live-server",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@lemiesz/dom-display": "^0.0.0",
+    "@lemiesz/game-state": "^0.0.0",
+    "live-server": "^1.2.1"
+  }
+}

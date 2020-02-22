@@ -1,0 +1,28 @@
+<!doctype html>
+
+<script src="./node_modules//@lemiesz/dom-display/lib/dom-display.js"></script>
+<script src="./node_modules/@lemiesz/game-state/lib/game-state.js"></script>
+<script src="./lib//game.js"></script>
+<link rel="stylesheet" href="./styles.css">
+
+<style>
+</style>
+
+<body>
+  <script>
+    runLevel(new Level(`
+..................................
+.################################.
+.#..............................#.
+.#..............................#.
+.#..............................#.
+.#...........................o..#.
+.#..@...........................#.
+.##########..............########.
+..........#..o..o..o..o..#........
+..........#...........M..#........
+..........################........
+..................................
+`), DOMDisplay);
+  </script>
+</body>
