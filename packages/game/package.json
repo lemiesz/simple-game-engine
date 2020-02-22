@@ -1,6 +1,6 @@
 {
   "name": "@lemiesz/game",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "Robert Lemiesz <lemieszrobert@gmail.com>",
   "homepage": "",
@@ -18,8 +18,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lemiesz/dom-display": "^0.0.0",
-    "@lemiesz/game-state": "^0.0.0",
+    "@lemiesz/dom-display": "^0.1.0",
+    "@lemiesz/game-state": "^0.1.0",
     "live-server": "^1.2.1"
   }
 }
