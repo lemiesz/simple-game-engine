@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "private-publish": "lerna publish --skip-git --skip-npm --force-publish * --yes && lerna exec -- npm publish"
+  },
   "devDependencies": {
     "lerna": "^3.20.2"
   }
